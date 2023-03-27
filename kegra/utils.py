@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import scipy.sparse as sp
 import numpy as np
-from scipy.sparse.linalg.eigen.arpack import eigsh, ArpackNoConvergence
+from scipy.sparse.linalg import eigsh, ArpackNoConvergence
 
 
 def encode_onehot(labels):
