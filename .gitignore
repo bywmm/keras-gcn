@@ -96,3 +96,8 @@ ENV/
 .ropeproject
 
 *.pickle
+
+
+
+kegra/*.h5
+kegra/*.tflite
